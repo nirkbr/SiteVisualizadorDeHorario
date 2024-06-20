@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-body);
+    font-family: 'Kanit', 'sans-serif';
+    overflow-x: hidden; /* Evita overflow horizontal */
+}
+
+/* Definir largura máxima para elementos */
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}

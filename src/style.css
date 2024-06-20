@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.name {
+    line-height: 2.1rem;
+    position: relative;
+    top: 2.6rem;
+    right: -2%;
+}
+
+
+.menuNavigation {
+    background-color: #292727;
+    color: rgb(255, 255, 255);
+    font-size: var(--font-tamanho);
+    height: 140px;
+}
+
+.barraDePesquisa {
+    position: relative;
+    left: 30%;
+    top: -1rem;
+}
+
+.BarraDePesquisaSearch {
+    padding: 15px 200px;
+    color: var(--font-color-barraDepesquisa);
+    background-color: var(--color-Search);
+    border-radius: 10px;
+}
+
+.search {
+    display: block;
+    position: absolute;
+    left: 33rem;
+    top: 1.6rem;
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.itensBarPosition {
+    list-style: none;
+    background: #333;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-right: 9vh;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 69px;
+    color: var(--color-Search);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    right: 0%;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+ul li ul.dropdown li a {
+    display: block;
+    padding: 20px 41px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+}
+
+ul li a:hover {
+    background: rgb(210, 91, 115);
+    transition: 0.5s;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+
+}
+
+.slider {
+    padding-top: 3%;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 1.4rem;
+}
+
+.slides {
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.manual-nav {
+    position: absolute;
+    width: 50%;
+    margin-top: -12.4%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 1.6px solid #333;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: #f8e6ea;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -25%;
+}
+
+#radio3:checked~.first {
+    margin-left: -50%;
+}
+
+#radio4:checked~.first {
+    margin-left: -75%;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3,
+#radio4:checked~.nav-auto .auto-btn4 {
+    background-color: deeppink
+}
+
+.produtos {
+    margin: auto;
+    background-color: #c34a4a;
+    width: 60rem;
+    height: 33rem;
+    margin-bottom: 16px;
+}
+
+.containerProdutos {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.produtoAtivo {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(204, 202, 202);
+}
+
+.imgProdutos {
+    width: 10rem;
+    
+}
+
+button {
+    margin-left: 3.3rem;
+    width: 15rem;
+    height: 2rem;
+}
+
+
+
+/* rgb(210, 91, 115) #f8e6ea;
