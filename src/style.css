@@ -191,6 +191,7 @@ ul li:hover ul.dropdown {
 .containerProdutos {
     display: flex;
     text-align: center;
+    justify-content: center;
     padding: 10px;
     justify-content: space-around;
     margin: 1rem;
@@ -200,15 +201,16 @@ ul li:hover ul.dropdown {
     display: flex;
     flex-direction: column;
     border: solid 1px rgb(204, 202, 202);
+    padding: 1rem;
 }
 
 .imgProdutos {
     width: 10rem;
-    
+    margin: auto;
 }
 
 button {
-    margin-left: 3.3rem;
+    margin: auto;
     width: 15rem;
     height: 2rem;
 }
